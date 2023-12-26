@@ -16,7 +16,7 @@ for($row=0;$row<=9;$row++)
   if ($row==0 or $row == 9){
     for($col=0;$col<=9;$col++){
       if ($col>0 and $col<9){
-        echo "<td>";
+        echo "<td style="background-color: gray;">';
         echo $word[$col-1];
         echo "</td>";
       }
